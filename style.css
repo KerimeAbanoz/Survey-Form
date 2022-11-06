@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1240px;
+  /* height: 1036px; */
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+.netflix {
+  font-size: 3.1rem;
+  color: white;
+  font-family: "Bowlby One SC", cursive;
+}
+
+span {
+  color: rgba(255, 0, 0, 1);
+}
+
+.description {
+  font-family: "Sorts Mill Goudy", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 23px;
+  color: #ffffff;
+}
+
+.survey-form {
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 40px;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.box {
+margin-top: 10px;
+}
+
+label,
+p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 1);
+  margin: 5px auto;
+}
+
+textarea {
+  resize: none;
+  height: 133px;
+  width: 460px;
+  left: 510px;
+  top: 858px;
+}
+
+.button {
+  background: rgba(255, 0, 0, 1);
+  color: white;
+  height: 45px;
+  width: 160px;
+  border-radius: 50px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.submit {
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;
+}
